@@ -1,0 +1,27 @@
+{
+  "name": "gitpulse",
+  "version": "1.0.0",
+  "description": "GitHub stats in your terminal 🚀",
+  "main": "dist/index.js",
+  "bin": {
+    "gitpulse": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["github", "cli", "stats", "typescript", "terminal"],
+  "author": "N4xv",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "chalk": "^4.1.2",
+    "commander": "latest",
+    "ora": "^5.4.1"
+  }
+}
